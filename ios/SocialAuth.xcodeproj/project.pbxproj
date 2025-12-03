@@ -16,10 +16,10 @@
 
 /* Begin PBXFileReference section */
 		06F2F5C1990FC8400D4B97B8 /* Pods_SocialAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* SocialAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SocialAuth.app; path = "/Users/shubham/coding/Projects/SocialAuth/ios/build/Debug-iphoneos/SocialAuth.app"; sourceTree = "<absolute>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SocialAuth/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SocialAuth/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = SocialAuth/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		5145466C2EE0409F005E393A /* SocialAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SocialAuth/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SocialAuth/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E8C3D0686B54A8B311F0F11 /* Pods-SocialAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialAuth.debug.xcconfig"; path = "Target Support Files/Pods-SocialAuth/Pods-SocialAuth.debug.xcconfig"; sourceTree = "<group>"; };
@@ -84,6 +84,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				5145466C2EE0409F005E393A /* SocialAuth.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,7 +120,7 @@
 			);
 			name = SocialAuth;
 			productName = SocialAuth;
-			productReference = 13B07F961A680F5B00A75B9A /* SocialAuth.app */;
+			productReference = 5145466C2EE0409F005E393A /* SocialAuth.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -276,7 +277,7 @@
 				DEVELOPMENT_TEAM = 62G5RH22YW;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SocialAuth/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +306,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 62G5RH22YW;
 				INFOPLIST_FILE = SocialAuth/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

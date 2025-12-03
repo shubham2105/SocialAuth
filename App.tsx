@@ -1,24 +1,13 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { Text, View } from 'react-native'
 import React from 'react'
+import "./global.css"
 
 const SocialAuth = () => {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>SocialAuth</Text>
+    <View className="flex-1 items-center justify-center">
+      <Text className="text-xl font-semibold text-blue-500">SocialAuth</Text>
     </View>
   )
 }
 
 export default SocialAuth
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
-  },
-  title: {
-    fontSize: 20,
-    color: "white"
-  }
-})  
